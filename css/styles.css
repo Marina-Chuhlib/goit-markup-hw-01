@@ -1,0 +1,50 @@
+:root {
+  --primary-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+.page {
+  background-color: #ffffff;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Nav */
+.logo {
+  color: var(--accent-color);
+}
+.desc {
+  color: var(--title-text-color);
+}
+.nav-link {
+  color: var(--title-text-color);
+}
+.nav-link:hover,
+.contacts-link:hover,
+.nav-link:focus,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  color: #757575;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+}
